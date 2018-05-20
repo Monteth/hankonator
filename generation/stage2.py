@@ -21,7 +21,7 @@ class Stage2:
 
         # 2.1 Szczególowy opis wycinka rzeczywistości
         secondary_header = document.add_paragraph()
-        secondary_header.add_run('1.1 Temat').font.size = Pt(Project.SECONDAR_HEADER_SIZE)
+        secondary_header.add_run('2.1 Szczegółowy opis wycinka rzeczywistości').font.size = Pt(Project.SECONDAR_HEADER_SIZE)
         secondary_header.add_run().add_break()
         secondary_header.add_run(self.reality_description)
         secondary_header.add_run().add_break()
